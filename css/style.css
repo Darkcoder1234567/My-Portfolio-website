@@ -28,8 +28,13 @@
 .fw-semi-bold {
   font-weight: 600;
 }
+.bbttnn{
+  transition: 0.5s;
+}
 .bbttnn:hover{
-color: rgb(0, 167, 112);
+  font-weight: 800;
+  font-size: large;
+color: rgb(167, 0, 0);
 }
 .fw-medium {
   font-weight: 500;
@@ -38,6 +43,11 @@ color: rgb(0, 167, 112);
 .btn-square {
   width: 40px;
   height: 40px;
+  transition: 0.5s;
+}
+.btn-square:hover{
+  width: 60px;
+  height: 60px;
 }
 
 .btn-sm-square {
@@ -49,6 +59,18 @@ color: rgb(0, 167, 112);
   width: 50px;
   height: 50px;
 }
+.mohit{
+  font-weight: 400;
+  color: #b80000;
+  transition: 0.5s;
+}
+.mohit:hover{
+  font-weight: 800;
+  color: #00B87B;
+  font-size: 22px;
+  
+}
+
 
 .btn-square,
 .btn-sm-square,
@@ -58,16 +80,20 @@ color: rgb(0, 167, 112);
   align-items: center;
   justify-content: center;
 }
-
+.h33{
+  color: #00B87B;
+}
 .btn.btn-primary {
   color: white;
   background-color: #000000;
   border-radius: 40px;
+  transition: 0.5s;
 }
 .btn.btn-primary:hover {
   color: white;
   background-color: #00ab94;
   border-radius: 40px;
+  font-size: 22px;
 }
 
 .typed-cursor {
@@ -169,6 +195,7 @@ color: rgb(0, 167, 112);
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 44px;
   background: var(--light);
   color: var(--primary);
   transition: .5s;
@@ -194,6 +221,7 @@ color: rgb(0, 167, 112);
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
   width: calc(100% - 60px);
+  border-radius: 44px;
   height: calc(100% - 60px);
   top: 30px;
   left: 30px;
@@ -203,10 +231,12 @@ color: rgb(0, 167, 112);
   opacity: 0;
   transition: .3s;
   transition-delay: .3s;
+  border-radius: 44px;
 }
 
 .portfolio-item:hover i {
   opacity: 1;
+  border-radius: 44px;
 }
 
 .testimonial-carousel .owl-dots {
