@@ -1,20 +1,22 @@
-/********** Template CSS **********/
+*::selection {
+background-color: rgba(0, 255, 132, 0.581);
+}
 :root {
-  --primary: #00B87B;
+  --primary: #00b87b;
   --secondary: #000000;
-  --light: #F2F2F2;
-  --dark: #2C3E50;
+  --light: #f2f2f2;
+  --dark: #2c3e50;
 }
 
 #spinner {
   opacity: 0;
   visibility: hidden;
-  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
   z-index: 99999;
 }
 
 #spinner.show {
-  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  transition: opacity 0.5s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
 }
@@ -28,13 +30,13 @@
 .fw-semi-bold {
   font-weight: 600;
 }
-.bbttnn{
+.bbttnn {
   transition: 0.5s;
 }
-.bbttnn:hover{
+.bbttnn:hover {
   font-weight: 800;
   font-size: large;
-color: rgb(167, 0, 0);
+  color: rgb(167, 0, 0);
 }
 .fw-medium {
   font-weight: 500;
@@ -45,7 +47,7 @@ color: rgb(167, 0, 0);
   height: 40px;
   transition: 0.5s;
 }
-.btn-square:hover{
+.btn-square:hover {
   width: 60px;
   height: 60px;
 }
@@ -59,18 +61,16 @@ color: rgb(167, 0, 0);
   width: 50px;
   height: 50px;
 }
-.mohit{
+.mohit {
   font-weight: 400;
   color: #b80000;
   transition: 0.5s;
 }
-.mohit:hover{
+.mohit:hover {
   font-weight: 800;
-  color: #00B87B;
+  color: #00b87b;
   font-size: 22px;
-  
 }
-
 
 .btn-square,
 .btn-sm-square,
@@ -80,8 +80,8 @@ color: rgb(167, 0, 0);
   align-items: center;
   justify-content: center;
 }
-.h33{
-  color: #00B87B;
+.h33 {
+  color: #00b87b;
 }
 .btn.btn-primary {
   color: white;
@@ -198,7 +198,7 @@ color: rgb(167, 0, 0);
   border-radius: 44px;
   background: var(--light);
   color: var(--primary);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .service-item:hover i {
@@ -213,9 +213,9 @@ color: rgb(167, 0, 0);
   top: 50%;
   left: 50%;
   font-size: 90px;
-  background: rgba(44, 62, 80, .9);
+  background: rgba(44, 62, 80, 0.9);
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .portfolio-item:hover .portfolio-btn {
@@ -229,8 +229,8 @@ color: rgb(167, 0, 0);
 
 .portfolio-item i {
   opacity: 0;
-  transition: .3s;
-  transition-delay: .3s;
+  transition: 0.3s;
+  transition-delay: 0.3s;
   border-radius: 44px;
 }
 
