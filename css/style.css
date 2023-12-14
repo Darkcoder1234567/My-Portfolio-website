@@ -1,6 +1,7 @@
 *::selection {
-background-color: rgba(0, 255, 132, 0.581);
+  background-color: rgba(0, 255, 132, 0.581);
 }
+
 :root {
   --primary: #00b87b;
   --secondary: #000000;
@@ -30,14 +31,17 @@ background-color: rgba(0, 255, 132, 0.581);
 .fw-semi-bold {
   font-weight: 600;
 }
+
 .bbttnn {
   transition: 0.5s;
 }
+
 .bbttnn:hover {
   font-weight: 800;
   font-size: large;
   color: rgb(167, 0, 0);
 }
+
 .fw-medium {
   font-weight: 500;
 }
@@ -47,6 +51,7 @@ background-color: rgba(0, 255, 132, 0.581);
   height: 40px;
   transition: 0.5s;
 }
+
 .btn-square:hover {
   width: 60px;
   height: 60px;
@@ -61,16 +66,92 @@ background-color: rgba(0, 255, 132, 0.581);
   width: 50px;
   height: 50px;
 }
+
 .mohit {
   font-weight: 400;
   color: #b80000;
   transition: 0.5s;
 }
+
 .mohit:hover {
   font-weight: 800;
   color: #00b87b;
   font-size: 22px;
 }
+
+
+.profile-name {
+  -webkit-animation: profile-name 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: profile-name 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes profile-name {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes profile-name {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.animation {
+  -webkit-animation: animation 0.8s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation: animation 0.8s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes animation {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes animation {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
 
 .btn-square,
 .btn-sm-square,
@@ -80,15 +161,18 @@ background-color: rgba(0, 255, 132, 0.581);
   align-items: center;
   justify-content: center;
 }
+
 .h33 {
   color: #00b87b;
 }
+
 .btn.btn-primary {
   color: white;
   background-color: #000000;
   border-radius: 40px;
   transition: 0.5s;
 }
+
 .btn.btn-primary:hover {
   color: white;
   background-color: #00ab94;
