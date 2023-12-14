@@ -124,8 +124,8 @@
 }
 
 .animation {
-  -webkit-animation: animation 0.8s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-  animation: animation 0.8s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  -webkit-animation: animation 1.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+  animation: animation 1.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
 
 @-webkit-keyframes animation {
